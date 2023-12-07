@@ -88,6 +88,11 @@
 	color: var(--primary);
 }
 
+.logo {
+	height: 60px; /* Adjust the height as needed */
+	width: auto;
+}
+
 @media (max-width: 991.98px) {
 	.navbar-dark .navbar-nav .nav-link {
 		margin-right: 0;
