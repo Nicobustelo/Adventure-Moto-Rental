@@ -169,7 +169,7 @@
 										We combine elegance with the thrill of adventure
 									</h6>
 									<h1 class="display-3 text-white mb-4 animated slideInDown">
-										Descubre Una Experiencia Que Quedara Para Siempre
+										Vive una Experiencia Inolvidable
 									</h1>
 									<a
 										href="#tours"
@@ -278,8 +278,18 @@
 											<input
 												type="text"
 												class="form-control"
-												id="exampleInputEmail1"
+												id="dias"
 												placeholder="Cantidad de Días"
+											/>
+										</div>
+									</div>
+									<div class="col-md-3">
+										<div class="form-group">
+											<input
+												type="text"
+												class="form-control"
+												id="motos"
+												placeholder="Cantidad de Motos"
 											/>
 										</div>
 									</div>
@@ -287,22 +297,19 @@
 										<input
 											type="text"
 											class="form-control"
-											id="formGroupExampleInput"
+											id="personas"
 											placeholder="Personas"
 										/>
-									</div>
-									<div class="col-md-3">
-										<select class="form-select">
-											<option selected>Indumentaria</option>
-											<option value="1">Mendoza</option>
-											<option value="2">Cordoba</option>
-											<option value="3">San Juan</option>
-										</select>
 									</div>
 								</div>
 							</div>
 							<div class="col-md-2">
-								<button class="btn btn-primary w-100">Consultar</button>
+								<button
+									class="btn btn-primary w-100"
+									onclick="redirectToWhatsApp()"
+								>
+									Consultar
+								</button>
 							</div>
 						</div>
 					</div>
@@ -376,7 +383,7 @@
 									<img
 										class="img-fluid rounded w-75 wow zoomIn"
 										data-wow-delay="0.1s"
-										src="img/foto-4.jpg"
+										src="img/motos-1x1.jpg"
 										style="margin-top: 25%"
 									/>
 								</div>
@@ -384,21 +391,21 @@
 									<img
 										class="img-fluid rounded w-100 wow zoomIn"
 										data-wow-delay="0.3s"
-										src="img/foto-3.jpg"
+										src="img/viñedos-1x1.jpg"
 									/>
 								</div>
 								<div class="col-6 text-end">
 									<img
 										class="img-fluid rounded w-50 wow zoomIn"
 										data-wow-delay="0.5s"
-										src="img/foto-2.jpg"
+										src="img/potrerillos-1x1.jpg"
 									/>
 								</div>
 								<div class="col-6 text-start">
 									<img
 										class="img-fluid rounded w-75 wow zoomIn"
 										data-wow-delay="0.7s"
-										src="img/foto-13.jpg"
+										src="img/Vistalba-1x1.jpg"
 									/>
 								</div>
 							</div>
@@ -465,10 +472,12 @@
 										>
 									</div>
 									<p class="text-body mb-3">
-										Su rueda delantera de 19” y trasera de 17” te ayudarán a
-										afianzarte al pavimento; mientras que su asiento de 794mm
-										mantendrá la comodidad a lo largo de todo el trayecto. Un
-										diseño que la ciudad necesita.
+										El motor de la Himalayan funciona muy bien a bajas
+										revoluciones, manteniendo muy buenas velocidades de crucero
+										para el mundo real, Cuenta con 411 centímetros cúbicos con
+										un eje de levas en la culata y desarrolla 25 caballos de
+										potencia, con un par motor de 32 Nm entre 4.000 y 4500 rpm
+										lo que significa que esta moto tiene mucha fuerza.
 									</p>
 									<div class="d-flex justify-content-between">
 										<a
@@ -635,11 +644,16 @@
 									<img class="img-fluid" src="img/foto-uspallata.jpeg" alt="" />
 									<small
 										class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4"
-										>US$180/Persona</small
+										><i class="fas fa-user me-2" style="color: white"></i
+										>US$180</small
 									>
 									<small
 										class="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 me-4"
-										>US$ 230 C/ acompañante</small
+										><i
+											class="fas fa-user-friends me-2"
+											style="color: white"
+										></i
+										>US$230</small
 									>
 								</div>
 								<div class="p-4 mt-2">
@@ -695,11 +709,16 @@
 									<img class="img-fluid" src="img/foto-vistalba.jpeg" alt="" />
 									<small
 										class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4"
-										>$250/Persona</small
+										><i class="fas fa-user me-2" style="color: white"></i
+										>US$250</small
 									>
 									<small
 										class="position-absolute end-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 me-4"
-										>US$ 300 C/ acompañante</small
+										><i
+											class="fas fa-user-friends me-2"
+											style="color: white"
+										></i
+										>US$300</small
 									>
 								</div>
 								<div class="p-4 mt-2">
@@ -760,7 +779,8 @@
 									<img class="img-fluid" src="img/foto-8.jpg" alt="" />
 									<small
 										class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4"
-										>$400/Persona</small
+										><i class="fas fa-user me-2" style="color: white"></i
+										>US$400</small
 									>
 								</div>
 								<div class="p-4 mt-2">
@@ -829,9 +849,12 @@
 							</h6>
 							<h1 class="text-white mb-4">Descubrí una Experiencia Unica</h1>
 							<p class="text-white mb-4">
-								Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit.
-								Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit,
-								sed stet lorem sit clita duo justo magna dolore erat amet
+								No es simplemente un paseo en moto; es una experiencia
+								transformadora que despierta tus sentidos, nutre tu espíritu
+								aventurero y te conecta con la esencia pura de la conducción.
+								Recorre con nosotros y experimenta la libertad en su forma más
+								pura sobre dos ruedas. ¡Prepárate para vivir una experiencia
+								única en cada giro del camino!
 							</p>
 							<a
 								href="https://wa.me/5492616611254?text=Buenas%2C%20estoy%20interesado%20en%20contratar%20los%20servicios%20de%20Adventure%20Moto%20Rental%2C%20quiero%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos."
@@ -918,11 +941,9 @@
 								</div>
 								<h5 class="mb-3">Mejores Tours</h5>
 								<p class="text-body mb-0">
-									Conocer Mendoza en moto es una experiencia única que ofrece
-									una serie de ventajas que hacen a este destino memorable e
-									inolvidable, ya que combina la majestuosidad de la cordillera
-									de Los Andes con la belleza de sus viñedos y la riqueza de su
-									cultura.
+									Conocer Mendoza en moto es una experiencia unica ya que
+									combina la majestuosidad de la cordillera de los Andes con la
+									belleza de sus viñedos y la riqueza de su cultura
 								</p>
 							</a>
 						</div>
@@ -932,16 +953,15 @@
 									<div
 										class="w-100 h-100 border rounded d-flex align-items-center justify-content-center"
 									>
-										<i class="fa fa-wrench fa-2x text-primary"></i>
+										<i class="fa fa-star fa-2x text-primary"></i>
 									</div>
 								</div>
 								<h5 class="mb-3">Mejor Servicio</h5>
 								<p class="text-body mb-0">
-									Reserva fácil y rápida, solo con tu carnet de conducir y una
-									tarjeta de crédito. Estamos para responder tus pregungas,
+									Reserva fácil y rápida, solo con tu licencia de conducir y
+									tarjeta de crédito. Estamos para responder tus preguntas,
 									resolver problemas y asegurarnos de que tu experiencia sea
-									inigualable desde el momento haces la reserva hasta que
-									vuelves en la moto.
+									inigualable.
 								</p>
 							</a>
 						</div>
@@ -951,16 +971,15 @@
 									<div
 										class="w-100 h-100 border rounded d-flex align-items-center justify-content-center"
 									>
-										<i class="fa fa-map fa-2x text-primary"></i>
+										<i class="fa fa-shield-alt fa-2x text-primary"></i>
 									</div>
 								</div>
 								<h5 class="mb-3">Compromiso con tu Seguridad</h5>
 								<p class="text-body mb-0">
-									Esta es nuestra prioridad , por lo que proporcionamos cascos,
+									Esta es nuestra prioridad, por lo que proporcionamos cascos,
 									guantes y camperas con protección de alta performance.
-									Nuestras motos se someten a un exhaustivo control y
-									mantenimiento así podemos garantizar un viaje sin desperfectos
-									y preocupaciones.
+									Nuestras motos son sometidas regularmente a un exhaustivo
+									control y mantenimiento.
 								</p>
 							</a>
 						</div>
@@ -1028,32 +1047,9 @@
 							class="testimonial-item position-relative bg-white rounded overflow-hidden"
 						>
 							<p>
-								Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-								ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-								est kasd kasd et erat magna eos
-							</p>
-							<div class="d-flex align-items-center">
-								<img
-									class="img-fluid flex-shrink-0 rounded"
-									src="img/testimonial-1.jpg"
-									style="width: 45px; height: 45px"
-								/>
-								<div class="ps-3">
-									<h6 class="fw-bold mb-1">Nombre Cliente</h6>
-									<small>Trabajo</small>
-								</div>
-							</div>
-							<i
-								class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
-							></i>
-						</div>
-						<div
-							class="testimonial-item position-relative bg-white rounded overflow-hidden"
-						>
-							<p>
-								Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-								ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-								est kasd kasd et erat magna eos
+								Realmente disfrutamos mucho del viaje, los paisajes son
+								increíbles y la atencion y servicio recibidos fueron
+								inmejorables! Muchas gracias!
 							</p>
 							<div class="d-flex align-items-center">
 								<img
@@ -1062,8 +1058,8 @@
 									style="width: 45px; height: 45px"
 								/>
 								<div class="ps-3">
-									<h6 class="fw-bold mb-1">Nombre Cliente</h6>
-									<small>Trabajo</small>
+									<h6 class="fw-bold mb-1">MARVIN MÖVIUS</h6>
+									<!-- <small>Trabajo</small> -->
 								</div>
 							</div>
 							<i
@@ -1074,9 +1070,34 @@
 							class="testimonial-item position-relative bg-white rounded overflow-hidden"
 						>
 							<p>
-								Tempor stet labore dolor clita stet diam amet ipsum dolor duo
-								ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet
-								est kasd kasd et erat magna eos
+								excelente el tour vistalba, increible la comida y la bodega
+								visitada, el camino recorrido no puede ser mejor, los paisajes y
+								la rutas son soñadas. Muchas gracias a la gente de Mdz Adventure
+								por la experiencia.
+							</p>
+							<div class="d-flex align-items-center">
+								<img
+									class="img-fluid flex-shrink-0 rounded"
+									src="img/testimonial-2.jpg"
+									style="width: 45px; height: 45px"
+								/>
+								<div class="ps-3">
+									<h6 class="fw-bold mb-1">VICTOR LORENZO</h6>
+									<!-- <small>Trabajo</small> -->
+								</div>
+							</div>
+							<i
+								class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"
+							></i>
+						</div>
+						<div
+							class="testimonial-item position-relative bg-white rounded overflow-hidden"
+						>
+							<p>
+								Alquile una moto por 3 días, la verdad que fue una gran
+								decisión, la moto es prefecta, se disfruta mucho y se encuentra
+								en perfectas condiciones, sin dudas volvería a hacerlo
+								nuevamente. Excelente servicio.
 							</p>
 							<div class="d-flex align-items-center">
 								<img
@@ -1085,8 +1106,8 @@
 									style="width: 45px; height: 45px"
 								/>
 								<div class="ps-3">
-									<h6 class="fw-bold mb-1">Nombre Cliente</h6>
-									<small>Trabajo</small>
+									<h6 class="fw-bold mb-1">SCOTT SCHOENEMAN</h6>
+									<!-- <small>Trabajo</small> -->
 								</div>
 							</div>
 							<i
@@ -1266,11 +1287,12 @@
 								>
 								<p class="text-white mb-0">
 									We combine
-									<a class="text-dark fw-medium" href="#"
+									<a class="text-dark fw-medium"
 										>elegance with the thrill of adventure.</a
-									>, Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-									sed do eiusmod tempor incididunt ut labore et dolore magna
-									aliqua.
+									>
+									Estamos para responder tus preguntas, resolver problemas y
+									asegurarnos de que tu experiencia sea inigualable dese el
+									momento que haces la reserva hasta que vuelves en la moto.
 								</p>
 							</div>
 						</div>
@@ -1281,17 +1303,21 @@
 								Contacto
 							</h6>
 							<p class="mb-2">
-								<i class="fa fa-map-marker-alt me-3"></i>123 Street, Mendoza, AR
+								<i class="fa fa-map-marker-alt me-3"></i>Beltran Sur 120, Godoy
+								Cruz, Mendoza
 							</p>
 							<p class="mb-2">
-								<i class="fa fa-phone-alt me-3"></i>+012 345 67890
+								<i class="fa fa-phone-alt me-3"></i>+54 9 2616611254
 							</p>
 							<p class="mb-2">
-								<i class="fa fa-envelope me-3"></i>info@example.com
+								<i class="fa fa-envelope me-3"></i>motorentaladventure@gmail.com
 							</p>
 							<div class="d-flex pt-2">
-								<a class="btn btn-outline-light btn-social" href=""
-									><i class="fab fa-twitter"></i
+								<a
+									class="btn btn-outline-light btn-social"
+									href="https://www.instagram.com/adventure.motorental/"
+									target="_blank"
+									><i class="fab fa-instagram"></i
 								></a>
 								<a class="btn btn-outline-light btn-social" href=""
 									><i class="fab fa-facebook-f"></i
@@ -1394,5 +1420,38 @@
 
 		<!-- Template Javascript -->
 		<script src="js/main.js"></script>
+
+		<!-- Redireccion del formulario de reserva -->
+		<script>
+			function redirectToWhatsApp() {
+				// Obtener los valores de los campos
+				var servicio = Number(document.querySelector('.form-select').value);
+				var dias = document.getElementById('dias').value;
+				var motos = document.getElementById('motos').value;
+				var personas = document.getElementById('personas').value;
+
+				console.log(servicio);
+				if (servicio === 1) {
+					servicio = 'alquiler de motos';
+				} else {
+					servicio = 'tours';
+				}
+
+				// Construir la URL de WhatsApp con los parámetros
+				var whatsappURL =
+					'https://api.whatsapp.com/send/?phone=5492616611254&text=Buenas%2C+estoy+interesado+en+contratar+el+servicio+de+' +
+					servicio +
+					'+durante+' +
+					dias +
+					'+dias.+Necesito+' +
+					motos +
+					'+motos+para+' +
+					personas +
+					'+personas.+Espero+su+respuesta%21&type=phone_number&app_absent=0';
+
+				// Redirigir al usuario a la URL de WhatsApp
+				window.location.href = whatsappURL;
+			}
+		</script>
 	</body>
 </html>
